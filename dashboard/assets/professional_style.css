@@ -1,0 +1,38 @@
+body {
+    background-color: #121212;
+    color: #e0e0e0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.sidebar {
+    background-color: #1f1f1f;
+    height: 100vh;
+    padding: 20px;
+    position: fixed;
+    width: 250px;
+    overflow-y: auto;
+    box-shadow: 2px 0 5px rgba(0,0,0,0.7);
+}
+.content {
+    margin-left: 270px;
+    padding: 20px;
+}
+.card {
+    background: linear-gradient(145deg, #1e1e1e, #292929);
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px #0a0a0a, -5px -5px 15px #2e2e2e;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+h1, h4 {
+    color: #bb86fc;
+}
+.btn-primary {
+    background-color: #bb86fc;
+    border: none;
+}
+.btn-primary:hover {
+    background-color: #9a67ea;
+}
+.progress-bar {
+    background: linear-gradient(90deg, #bb86fc, #3700b3);
+}

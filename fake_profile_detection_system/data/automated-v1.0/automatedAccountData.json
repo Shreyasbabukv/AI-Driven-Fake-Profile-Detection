@@ -1,0 +1,41 @@
+[
+  {
+    "username": "user1",
+    "bio": "Love hiking and outdoor adventures.",
+    "post_content": "Had a great time at the mountains!",
+    "num_followers": 150,
+    "num_following": 100,
+    "num_posts": 50,
+    "account_age_days": 365,
+    "avg_post_length": 120,
+    "profile_pic_url": "http://example.com/pic1.jpg",
+    "behavior_score": 0.8,
+    "label": 0
+  },
+  {
+    "username": "user2",
+    "bio": "Buy followers and likes here!",
+    "post_content": "Get 1000 followers in a day!",
+    "num_followers": 5000,
+    "num_following": 10,
+    "num_posts": 5,
+    "account_age_days": 30,
+    "avg_post_length": 20,
+    "profile_pic_url": "http://example.com/pic2.jpg",
+    "behavior_score": 0.2,
+    "label": 1
+  },
+  {
+    "username": "user3",
+    "bio": "Tech enthusiast and blogger.",
+    "post_content": "Check out my latest blog post on AI.",
+    "num_followers": 300,
+    "num_following": 250,
+    "num_posts": 80,
+    "account_age_days": 730,
+    "avg_post_length": 200,
+    "profile_pic_url": "http://example.com/pic3.jpg",
+    "behavior_score": 0.9,
+    "label": 0
+  }
+]

@@ -1,0 +1,23 @@
+data:
+  dataset_path: data/automated-v1.0/automatedAccountData.json
+
+model:
+  random_forest:
+    n_estimators: 100
+    max_depth: 10
+  xgboost:
+    n_estimators: 100
+    max_depth: 10
+    learning_rate: 0.1
+  lightgbm:
+    n_estimators: 100
+    max_depth: 10
+    learning_rate: 0.1
+  ann:
+    learning_rate: 0.001
+    epochs: 50
+    batch_size: 32
+
+training:
+  test_size: 0.2
+  random_state: 42

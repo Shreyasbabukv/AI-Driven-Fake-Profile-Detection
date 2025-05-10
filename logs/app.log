@@ -1,0 +1,8 @@
+2025-05-10 18:56:51,006 - fake_profile_detector - INFO - Combined data columns: ['userFollowerCount', 'userFollowingCount', 'userBiographyLength', 'userMediaCount', 'userHasProfilPic', 'userIsPrivate', 'usernameDigitCount', 'usernameLength', 'isFake']
+2025-05-10 18:56:51,009 - fake_profile_detector - ERROR - Error in main training pipeline: Label column 'label' not found in dataframe.
+Traceback (most recent call last):
+  File "C:\Users\shrey\Downloads\fake-profile-detector REAL\fake_profile_detection_system\main.py", line 28, in main
+    processed_data, features, labels = preprocess_data(combined_data)
+  File "C:\Users\shrey\Downloads\fake-profile-detector REAL\fake_profile_detection_system\data\preprocessing.py", line 20, in preprocess_data
+    raise ValueError(f"Label column '{label_col}' not found in dataframe.")
+ValueError: Label column 'label' not found in dataframe.
